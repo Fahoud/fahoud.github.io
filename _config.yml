@@ -99,7 +99,5 @@ theme: hexo-theme-ayer
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo:
-    gitee: https://gitee.com/Fahoud/Fahoud.git 
-    github: https://github.com/Fahoud/fahoud.github.io.git
+  repo:  https://github.com/Fahoud/fahoud.github.io.git
   branch: master
