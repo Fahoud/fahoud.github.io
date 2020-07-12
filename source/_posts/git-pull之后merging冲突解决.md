@@ -3,11 +3,9 @@ title: git pull之后merging冲突解决
 date: 2020-07-12 14:15:29
 tags:
 ---
-
+# 解决merging冲突
 
 {% aplayer "BECAUSE" "小林未郁" "小林未郁_BECAUSE.mp3" "小林未郁_BECAUSE.jpg" %}
-
-# 解决merging冲突
 
 ## 一、出现merging冲突的原因
 > git远程上存在一个本地不存在的git 分支，就是本地远程代码不同步
