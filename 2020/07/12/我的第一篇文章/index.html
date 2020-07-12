@@ -33,6 +33,8 @@
 
   
 
+<link rel="stylesheet" href="/assets/css/APlayer.min.css" class="aplayer-style-marker">
+<script src="/assets/js/APlayer.min.js" class="aplayer-script-marker"></script>
 </head>
 
 </html>
@@ -70,7 +72,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">6</span>
+            <span class="post-count">40</span>
         </span>
     </span>
 
@@ -94,7 +96,28 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h2 id="第一次搞博客"><a href="#第一次搞博客" class="headerlink" title="第一次搞博客"></a>第一次搞博客</h2> 
+  
+        <div id="aplayer-ycSGEnVb" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-ycSGEnVb"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "Caffeine",
+              author: "Jeff Williams",
+              url: "caffeine.mp3",
+              pic: "",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+<h1 id="第一次搞博客"><a href="#第一次搞博客" class="headerlink" title="第一次搞博客"></a>第一次搞博客</h1> 
       <!-- reward -->
       
       <div id="reward-btn">
