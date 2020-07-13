@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-13T02:49:25.056Z</updated>
+  <updated>2020-07-13T03:35:37.076Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/07/13/git%E5%8D%9A%E5%AE%A2%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86/"/>
     <id>http://yoursite.com/2020/07/13/git%E5%8D%9A%E5%AE%A2%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86/</id>
     <published>2020-07-13T02:47:40.000Z</published>
-    <updated>2020-07-13T02:49:25.056Z</updated>
+    <updated>2020-07-13T03:35:37.076Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,7 @@
       
         
         
-          &lt;h1 id=&quot;git-hexo部署到github的源码管理&quot;&gt;&lt;a href=&quot;#git-hexo部署到github的源码管理&quot; class=&quot;headerlink&quot; title=&quot;git hexo部署到github的源码管理&quot;&gt;&lt;/a&gt;git
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;
         
       
     
@@ -75,7 +75,7 @@
       
         
         
-          &lt;h1 id=&quot;第一次搞博客&quot;&gt;&lt;a href=&quot;#第一次搞博客&quot; class=&quot;headerlink&quot;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;
         
       
     
@@ -98,7 +98,7 @@
       
         
         
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;
         
       
     

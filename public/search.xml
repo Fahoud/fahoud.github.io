@@ -4,12 +4,12 @@
     <title>git pull之后merging冲突解决</title>
     <url>/2020/07/12/git-pull%E4%B9%8B%E5%90%8Emerging%E5%86%B2%E7%AA%81%E8%A7%A3%E5%86%B3/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="解决merging冲突"><a href="#解决merging冲突" class="headerlink" title="解决merging冲突"></a>解决merging冲突</h1>
-        <div id="aplayer-aZcTwLfz" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-kWdxUtUr" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-aZcTwLfz"),
+            element: document.getElementById("aplayer-kWdxUtUr"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -66,7 +66,7 @@
   <entry>
     <title>git博客分支管理</title>
     <url>/2020/07/13/git%E5%8D%9A%E5%AE%A2%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86/</url>
-    <content><![CDATA[<h1 id="git-hexo部署到github的源码管理"><a href="#git-hexo部署到github的源码管理" class="headerlink" title="git hexo部署到github的源码管理"></a>git hexo部署到github的源码管理</h1><h2 id="master用于部署hexo"><a href="#master用于部署hexo" class="headerlink" title="master用于部署hexo"></a>master用于部署hexo</h2><blockquote>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="git-hexo部署到github的源码管理"><a href="#git-hexo部署到github的源码管理" class="headerlink" title="git hexo部署到github的源码管理"></a>git hexo部署到github的源码管理</h1><h2 id="master用于部署hexo"><a href="#master用于部署hexo" class="headerlink" title="master用于部署hexo"></a>master用于部署hexo</h2><blockquote>
 <p>每次写完文档后，不希望把所有数据都保存到服务器中，希望把源码和数据都保存到github中。<br>因为github规定了部署博客必需为master分支，所以用master部署hexo，用dev存储整个hexo文件夹</p>
 </blockquote>
 <blockquote>
@@ -87,7 +87,7 @@
   <entry>
     <title>Hello World</title>
     <url>/2020/07/12/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
@@ -105,7 +105,7 @@
   <entry>
     <title>我的第一篇文章</title>
     <url>/2020/07/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<h1 id="第一次搞博客"><a href="#第一次搞博客" class="headerlink" title="第一次搞博客"></a>第一次搞博客</h1><p>BGM：小林未郁-BECAUSE</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="第一次搞博客"><a href="#第一次搞博客" class="headerlink" title="第一次搞博客"></a>第一次搞博客</h1><p>BGM：小林未郁-BECAUSE</p>
 ]]></content>
   </entry>
 </search>
