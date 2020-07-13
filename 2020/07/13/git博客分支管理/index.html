@@ -9,7 +9,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    我的第一篇文章 |  Fahoud
+    git博客分支管理 |  Fahoud
   </title>
   <meta name="generator" content="hexo-theme-ayer">
   
@@ -45,7 +45,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-我的第一篇文章"
+  id="post-git博客分支管理"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -56,22 +56,22 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  我的第一篇文章
+  git博客分支管理
 </h1>
  
 
     </header>
      
     <div class="article-meta">
-      <a href="/2020/07/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" class="article-date">
-  <time datetime="2020-07-12T01:49:00.000Z" itemprop="datePublished">2020-07-12</time>
+      <a href="/2020/07/13/git%E5%8D%9A%E5%AE%A2%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86/" class="article-date">
+  <time datetime="2020-07-13T02:47:40.000Z" itemprop="datePublished">2020-07-13</time>
 </a>   
 <div class="word_count">
     <span class="post-time">
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">12</span>
+            <span class="post-count">188</span>
         </span>
     </span>
 
@@ -95,7 +95,22 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h1 id="第一次搞博客"><a href="#第一次搞博客" class="headerlink" title="第一次搞博客"></a>第一次搞博客</h1><p>BGM：小林未郁-BECAUSE</p>
+  <h1 id="git-hexo部署到github的源码管理"><a href="#git-hexo部署到github的源码管理" class="headerlink" title="git hexo部署到github的源码管理"></a>git hexo部署到github的源码管理</h1><h2 id="master用于部署hexo"><a href="#master用于部署hexo" class="headerlink" title="master用于部署hexo"></a>master用于部署hexo</h2><blockquote>
+<p>每次写完文档后，不希望把所有数据都保存到服务器中，希望把源码和数据都保存到github中。<br>因为github规定了部署博客必需为master分支，所以用master部署hexo，用dev存储整个hexo文件夹</p>
+</blockquote>
+<blockquote>
+<p>更改文档内容或者主题设置后部署到github或者码云</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo claen</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+
+<h2 id="dev分支存储源码"><a href="#dev分支存储源码" class="headerlink" title="dev分支存储源码"></a>dev分支存储源码</h2><blockquote>
+<p>先创建本地分支</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git switch -c dev  <span class="comment">#旧版本git用git checkout -b dev</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>把整个hexo文件夹推送到github或者码云</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ git switch master  <span class="comment">#分支dev切换至master（旧版本git checkout master）</span></span><br><span class="line">$ git add .     <span class="comment">#add所有更改</span></span><br><span class="line">$ git commit -m <span class="string">'Update'</span>   <span class="comment">#commit</span></span><br><span class="line">$ git push github master    <span class="comment">#推上github的master分支</span></span><br></pre></td></tr></table></figure>
  
       <!-- reward -->
       
@@ -162,7 +177,7 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://yoursite.com/2020/07/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://yoursite.com/2020/07/13/git%E5%8D%9A%E5%AE%A2%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -173,19 +188,10 @@
    
   <nav class="article-nav">
     
+    
       <a href="/2020/07/12/git-pull%E4%B9%8B%E5%90%8Emerging%E5%86%B2%E7%AA%81%E8%A7%A3%E5%86%B3/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            git pull之后merging冲突解决
-          
-        </div>
-      </a>
-    
-    
-      <a href="/2020/07/12/hello-world/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">Hello World</div>
+        <div class="article-nav-title">git pull之后merging冲突解决</div>
       </a>
     
   </nav>
