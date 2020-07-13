@@ -33,6 +33,7 @@
 
   
 
+<link rel="alternate" href="/atom.xml" title="Fahoud" type="application/atom+xml">
 <link rel="stylesheet" href="/assets/css/APlayer.min.css" class="aplayer-style-marker">
 <script src="/assets/js/APlayer.min.js" class="aplayer-script-marker"></script>
 </head>
@@ -103,6 +104,68 @@
     
     
     <article
+  id="post-git博客分支管理"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/07/13/git%E5%8D%9A%E5%AE%A2%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86/"
+    >git博客分支管理</a> 
+</h2>
+ 
+
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2020/07/13/git%E5%8D%9A%E5%AE%A2%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86/" class="article-date">
+  <time datetime="2020-07-13T02:47:40.000Z" itemprop="datePublished">2020-07-13</time>
+</a>    
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h1 id="git-hexo部署到github的源码管理"><a href="#git-hexo部署到github的源码管理" class="headerlink" title="git hexo部署到github的源码管理"></a>git hexo部署到github的源码管理</h1><h2 id="master用于部署hexo"><a href="#master用于部署hexo" class="headerlink" title="master用于部署hexo"></a>master用于部署hexo</h2><blockquote>
+<p>每次写完文档后，不希望把所有数据都保存到服务器中，希望把源码和数据都保存到github中。<br>因为github规定了部署博客必需为master分支，所以用master部署hexo，用dev存储整个hexo文件夹</p>
+</blockquote>
+<blockquote>
+<p>更改文档内容或者主题设置后部署到github或者码云</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo claen</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+
+<h2 id="dev分支存储源码"><a href="#dev分支存储源码" class="headerlink" title="dev分支存储源码"></a>dev分支存储源码</h2><blockquote>
+<p>先创建本地分支</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git switch -c dev  <span class="comment">#旧版本git用git checkout -b dev</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>把整个hexo文件夹推送到github或者码云</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ git switch master  <span class="comment">#分支dev切换至master（旧版本git checkout master）</span></span><br><span class="line">$ git add .     <span class="comment">#add所有更改</span></span><br><span class="line">$ git commit -m <span class="string">'Update'</span>   <span class="comment">#commit</span></span><br><span class="line">$ git push github master    <span class="comment">#推上github的master分支</span></span><br></pre></td></tr></table></figure>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+    </footer>
+  </div>
+
+    
+ 
+   
+</article>
+
+    
+    <article
   id="post-git-pull之后merging冲突解决"
   class="article article-type-post"
   itemscope
@@ -130,12 +193,12 @@
     <div class="article-entry" itemprop="articleBody">
        
   <h1 id="解决merging冲突"><a href="#解决merging冲突" class="headerlink" title="解决merging冲突"></a>解决merging冲突</h1>
-        <div id="aplayer-qoFiskuE" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-aZcTwLfz" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-qoFiskuE"),
+            element: document.getElementById("aplayer-aZcTwLfz"),
             narrow: false,
             autoplay: false,
             showlrc: false,
