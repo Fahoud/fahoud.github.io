@@ -104,3 +104,19 @@ deploy:
     github:  https://github.com/Fahoud/fahoud.github.io.git
     gitee: https://gitee.com/Fahoud/Fahoud.git
   branch: master
+
+# hexo-generator-searchdb
+search:
+  path: search.xml
+  field: post
+  format: html
+# hexo-generator-feed RSS subscription
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
