@@ -4,12 +4,12 @@
     <title>git pull之后merging冲突解决</title>
     <url>/2020/07/12/git-pull%E4%B9%8B%E5%90%8Emerging%E5%86%B2%E7%AA%81%E8%A7%A3%E5%86%B3/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="解决merging冲突"><a href="#解决merging冲突" class="headerlink" title="解决merging冲突"></a>解决merging冲突</h1>
-        <div id="aplayer-VAUPyVam" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-FqZImAmY" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-VAUPyVam"),
+            element: document.getElementById("aplayer-FqZImAmY"),
             narrow: false,
             autoplay: false,
             showlrc: false,
