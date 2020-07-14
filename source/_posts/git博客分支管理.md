@@ -12,6 +12,22 @@ tags:
 > 每次写完文档后，不希望把所有数据都保存到服务器中，希望把源码和数据都保存到github中。
 > 因为github规定了部署博客必需为master分支，所以用master部署hexo，用dev存储整个hexo文件夹
 
+> 实现hexo d先执行以下命令安装插件
+```bash
+$ npm install hexo-deployer-git --save 
+```
+
+
+> _config.yml文件中部署配置
+```bash
+deploy:
+  type: git
+  repo:  
+    gitee: https://gitee.com/Fahoud/Fahoud.git
+    github: https://github.com/Fahoud/fahoud.github.io.git
+  branch: master
+```
+
 > 更改文档内容或者主题设置后部署到github或者码云
 ```bash
  $ hexo claen
@@ -21,14 +37,15 @@ tags:
 
 ## dev分支存储源码
 
-> 先创建本地分支
-```bash
-$ git switch -c dev  #旧版本git用git checkout -b dev
-```
+> 本地只有一条分支，为master
+
 > 把整个hexo文件夹推送到github或者码云
 ```bash
-$ git switch master  #分支dev切换至master（旧版本git checkout master）
 $ git add .     #add所有更改
-$ git commit -m 'Update'   #commit
-$ git push github master    #推上github的master分支
+$ git commit -m 'Update xxx'   #commit
+$ git push github master:dev    #推上github的dev分支
+$ 
+$ git add . 
+$ git commit -m 'Update xxx'
+$ git push gitee master:hexo   #推上gitee的hexo分支
 ```

@@ -2,7 +2,7 @@
 title: photos
 
 albums: [
-	["/usr/local/blog/source/photos/小林未郁_BECAUSE.jpg", "BECAUSE"]
+	["https://fahoud.gitee.io/hexo-dist/mika_Because.jpg", "BECAUSE"]
 	]
 
 date: 2020-07-13 11:00:37

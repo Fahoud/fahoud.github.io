@@ -134,18 +134,28 @@
 <p>每次写完文档后，不希望把所有数据都保存到服务器中，希望把源码和数据都保存到github中。<br>因为github规定了部署博客必需为master分支，所以用master部署hexo，用dev存储整个hexo文件夹</p>
 </blockquote>
 <blockquote>
+<p>实现hexo d先执行以下命令安装插件</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+
+<blockquote>
+<p>_config.yml文件中部署配置</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo:  </span><br><span class="line">    gitee: https://gitee.com/Fahoud/Fahoud.git</span><br><span class="line">    github: https://github.com/Fahoud/fahoud.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+
+<blockquote>
 <p>更改文档内容或者主题设置后部署到github或者码云</p>
 </blockquote>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo claen</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
 
 <h2 id="dev分支存储源码"><a href="#dev分支存储源码" class="headerlink" title="dev分支存储源码"></a>dev分支存储源码</h2><blockquote>
-<p>先创建本地分支</p>
+<p>本地只有一条分支，为master</p>
 </blockquote>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git switch -c dev  <span class="comment">#旧版本git用git checkout -b dev</span></span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>把整个hexo文件夹推送到github或者码云</p>
 </blockquote>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ git switch master  <span class="comment">#分支dev切换至master（旧版本git checkout master）</span></span><br><span class="line">$ git add .     <span class="comment">#add所有更改</span></span><br><span class="line">$ git commit -m <span class="string">'Update'</span>   <span class="comment">#commit</span></span><br><span class="line">$ git push github master    <span class="comment">#推上github的master分支</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ git add .     <span class="comment">#add所有更改</span></span><br><span class="line">$ git commit -m <span class="string">'Update xxx'</span>   <span class="comment">#commit</span></span><br><span class="line">$ git push github master:dev    <span class="comment">#推上github的dev分支</span></span><br><span class="line">$ </span><br><span class="line">$ git add . </span><br><span class="line">$ git commit -m <span class="string">'Update xxx'</span></span><br><span class="line">$ git push gitee master:hexo   <span class="comment">#推上gitee的hexo分支</span></span><br></pre></td></tr></table></figure>
  
       <!-- reward -->
       
@@ -193,12 +203,12 @@
     <div class="article-entry" itemprop="articleBody">
        
   <h1 id="解决merging冲突"><a href="#解决merging冲突" class="headerlink" title="解决merging冲突"></a>解决merging冲突</h1>
-        <div id="aplayer-kWdxUtUr" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-wPmdKwDh" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-kWdxUtUr"),
+            element: document.getElementById("aplayer-wPmdKwDh"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -206,7 +216,7 @@
               title: "BECAUSE",
               author: "小林未郁",
               url: "小林未郁_BECAUSE.mp3",
-              pic: "/2020/07/12/git-pull之后merging冲突解决/小林未郁_BECAUSE.jpg",
+              pic: "https://fahoud.gitee.io/hexo-dist/mika_Because.jpg",
               lrc: ""
             }
           });
@@ -458,6 +468,14 @@
     
     <li class="nav-item">
       <a class="nav-item-link" href="/categories">分类</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags">标签</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/photos">照片</a>
     </li>
     
     <li class="nav-item">
