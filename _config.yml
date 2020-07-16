@@ -102,7 +102,7 @@ deploy:
   type: git
   repo:  
     gitee: https://gitee.com/Fahoud/Fahoud.git
-    github: https://github.com/Fahoud/fahoud.github.io.git
+   # github: https://github.com/Fahoud/fahoud.github.io.git
   branch: master
 
 # hexo-generator-searchdb
