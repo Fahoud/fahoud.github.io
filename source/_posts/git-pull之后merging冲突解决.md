@@ -5,7 +5,7 @@ tags:
 ---
 # 解决merging冲突
 
-{% aplayer "BECAUSE" "小林未郁" "小林未郁_BECAUSE.mp3" "https://fahoud.gitee.io/hexo-dist/mika_Because.jpg" %}
+{% aplayer "BECAUSE" "小林未郁" "小林未郁_BECAUSE.mp3" "https://fahoud.gitee.io/hexo-dist/music/mika_Because.jpg" %}
 
 ## 一、出现merging冲突的原因
 > git远程上存在一个本地不存在的git 分支，就是本地远程代码不同步
