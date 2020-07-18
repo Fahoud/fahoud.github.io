@@ -2,6 +2,7 @@
 title: JVM性能优化,Chapter4:C4垃圾回收
 date: 2020-7-17 10:45:38
 tags: JVM
+categories: JVM
 ---
 ![JVMlogo](http://fahoud.gitee.io/hexo-dist/jvm/JVMlogo.jpg)
 

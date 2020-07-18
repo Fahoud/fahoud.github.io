@@ -1,7 +1,8 @@
 ---
 title: git博客分支管理
 date: 2020-07-13 10:47:40
-tags:
+tags: Git
+categories: Git
 ---
 
 

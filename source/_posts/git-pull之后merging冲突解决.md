@@ -1,7 +1,8 @@
 ---
 title: git pull之后merging冲突解决
 date: 2020-07-12 14:15:29
-tags:
+tags: Git
+categories: Git
 ---
 # 解决merging冲突
 
