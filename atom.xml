@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-17T02:54:57.841Z</updated>
+  <updated>2020-07-18T04:05:38.484Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>JVM性能优化,Chapter4:C4垃圾回收</title>
-    <link href="http://yoursite.com/2020/07/17/JVM-%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-Part-4-C4-%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
-    <id>http://yoursite.com/2020/07/17/JVM-%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-Part-4-C4-%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/</id>
+    <title>JVM MinorGC和FullGC触发条件</title>
+    <link href="http://yoursite.com/2020/07/17/JVM-MinorGC%E5%92%8CFullGC%E8%A7%A6%E5%8F%91%E6%9D%A1%E4%BB%B6/"/>
+    <id>http://yoursite.com/2020/07/17/JVM-MinorGC%E5%92%8CFullGC%E8%A7%A6%E5%8F%91%E6%9D%A1%E4%BB%B6/</id>
     <published>2020-07-17T02:45:38.000Z</published>
-    <updated>2020-07-17T02:54:57.841Z</updated>
+    <updated>2020-07-18T04:05:38.484Z</updated>
     
     <summary type="html">
     
@@ -35,6 +35,35 @@
     
     </summary>
     
+    
+      <category term="JVM" scheme="http://yoursite.com/categories/JVM/"/>
+    
+    
+      <category term="JVM" scheme="http://yoursite.com/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM性能优化,Chapter4:C4垃圾回收</title>
+    <link href="http://yoursite.com/2020/07/17/JVM-%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-Part-4-C4-%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
+    <id>http://yoursite.com/2020/07/17/JVM-%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-Part-4-C4-%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/</id>
+    <published>2020-07-17T02:45:38.000Z</published>
+    <updated>2020-07-18T04:04:17.449Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="JVM" scheme="http://yoursite.com/categories/JVM/"/>
     
     
       <category term="JVM" scheme="http://yoursite.com/tags/JVM/"/>
@@ -46,7 +75,7 @@
     <link href="http://yoursite.com/2020/07/13/git%E5%8D%9A%E5%AE%A2%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86/"/>
     <id>http://yoursite.com/2020/07/13/git%E5%8D%9A%E5%AE%A2%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86/</id>
     <published>2020-07-13T02:47:40.000Z</published>
-    <updated>2020-07-14T02:36:13.190Z</updated>
+    <updated>2020-07-18T04:05:13.391Z</updated>
     
     <summary type="html">
     
@@ -61,6 +90,10 @@
     </summary>
     
     
+      <category term="Git" scheme="http://yoursite.com/categories/Git/"/>
+    
+    
+      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
     
   </entry>
   
@@ -69,7 +102,7 @@
     <link href="http://yoursite.com/2020/07/12/git-pull%E4%B9%8B%E5%90%8Emerging%E5%86%B2%E7%AA%81%E8%A7%A3%E5%86%B3/"/>
     <id>http://yoursite.com/2020/07/12/git-pull%E4%B9%8B%E5%90%8Emerging%E5%86%B2%E7%AA%81%E8%A7%A3%E5%86%B3/</id>
     <published>2020-07-12T06:15:29.000Z</published>
-    <updated>2020-07-17T02:33:17.605Z</updated>
+    <updated>2020-07-18T04:04:45.704Z</updated>
     
     <summary type="html">
     
@@ -84,6 +117,10 @@
     </summary>
     
     
+      <category term="Git" scheme="http://yoursite.com/categories/Git/"/>
+    
+    
+      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
     
   </entry>
   
